@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "MuW9wU9xUn0qoeXXt0/x0rYZCnxyLAC1TfLrFU6DD31X9YnIpjxg55kGrmc2UabPfaY4MhGd57UNEuszRyekHw==",
+  "success": true,
+  "projectFilePath": "C:\\Schule\\3.Klasse\\WMC\\PocketGPT\\PocketGPT.Webapi\\PocketGPT.Webapi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\steft\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\steft\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\steft\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\steft\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\steft\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\steft\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
