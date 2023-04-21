@@ -4,6 +4,80 @@
     "C:\\Schule\\3.Klasse\\WMC\\PocketGPT\\PocketGPT.Webapi\\PocketGPT.Webapi.csproj": {}
   },
   "projects": {
+    "C:\\Schule\\3.Klasse\\WMC\\PocketGPT\\PocketGPT.Application\\PocketGPT.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Schule\\3.Klasse\\WMC\\PocketGPT\\PocketGPT.Application\\PocketGPT.Application.csproj",
+        "projectName": "PocketGPT.Application",
+        "projectPath": "C:\\Schule\\3.Klasse\\WMC\\PocketGPT\\PocketGPT.Application\\PocketGPT.Application.csproj",
+        "packagesPath": "C:\\Users\\steft\\.nuget\\packages\\",
+        "outputPath": "C:\\Schule\\3.Klasse\\WMC\\PocketGPT\\PocketGPT.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\steft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.*, )"
+            },
+            "Bogus": {
+              "target": "Package",
+              "version": "[34.*, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[6.*, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Schule\\3.Klasse\\WMC\\PocketGPT\\PocketGPT.Webapi\\PocketGPT.Webapi.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,10 +101,15 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Schule\\3.Klasse\\WMC\\PocketGPT\\PocketGPT.Application\\PocketGPT.Application.csproj": {
+                "projectPath": "C:\\Schule\\3.Klasse\\WMC\\PocketGPT\\PocketGPT.Application\\PocketGPT.Application.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
+          "allWarningsAsErrors": true,
           "warnAsError": [
             "NU1605"
           ]
