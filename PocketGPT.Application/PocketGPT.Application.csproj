@@ -9,5 +9,7 @@
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.*" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="6.*" />
 		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.*" />
+		<PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="6.*" />
 	</ItemGroup>
+	
 </Project>

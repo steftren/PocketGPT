@@ -7,9 +7,13 @@ using Microsoft.Extensions.Hosting;
 var builder = WebApplication.CreateBuilder(args);
 // SpengernewsContext ist der DbContext, der im Application Project angelegt wurde.
 // Aktiviere diese Zeile, wenn du den DB Context definiert hat.
-builder.Services.AddDbContext<PocketDB>(opt =>
-    opt.UseSqlite(builder.Configuration.GetConnectionString("Sqlite")));
-
+builder.Services.AddDbContext<PocketContext>(opt =>
+{
+    opt.UseMySql(
+        builder.Configuration.GetConnectionString("Default"),
+        new MariaDbServerVersion("10.10.3"),
+        o => o.UseQuerySplittingBehavior(QuerySplittingBehavior.SingleQuery));
+});
 // Wir wollen automatisch nach Controllern im Ordner Controllers suchen.
 builder.Services.AddControllers();
 // Der Vue.JS Devserver läuft auf einem anderen Port, deswegen brauchen wir diese Konfiguration

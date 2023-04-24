@@ -1,12 +1,14 @@
-﻿namespace PocketGPT.Webapi.Controllers
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace PocketGPT.Webapi.Controllers
 {
     [ApiController]               // Muss bei jedem Controller stehen
     [Route("/api/[controller]")]  // Muss bei jedem Controller stehen
-    public class NewsController : ControllerBase
+    public class PocketController : ControllerBase
     {
-        private readonly PocketDB _db;
+        private readonly PocketContext _db;
 
-        public PocketController(PocketDB db)
+        public PocketController(PocketContext db)
         {
             _db = db;
         }

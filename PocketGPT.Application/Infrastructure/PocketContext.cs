@@ -1,4 +1,7 @@
-﻿public class PocketContext : DbContext
+﻿using Microsoft.EntityFrameworkCore;
+using System;
+
+public class PocketContext : DbContext
 {
     // TODO: Add your DbSets
 
